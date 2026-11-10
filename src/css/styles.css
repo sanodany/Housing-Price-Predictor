@@ -1,0 +1,15 @@
+/* src/css/styles.css */
+
+@import "tailwindcss";
+
+/* Custom smooth transitions for form elements and results */
+input, button {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Custom focus ring refinement */
+input:focus {
+    outline: none;
+    border-color: #6366f1; /* Indigo accent glow */
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
